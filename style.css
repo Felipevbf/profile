@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(227, 235, 223);
+  font-family: 'Roboto Slap', sans-serif;
+  font-size: 19px;
+  line-height: 18px;
+  color: rgb(45, 45, 52);
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 33px;
+  line-height: 30px;
+  color: rgb(44, 57, 75);
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 20px;
+  color: rgb(53, 176, 121);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto Slap', sans-serif;
+  color: rgb(46, 134, 171);
+}
+
+a:hover {
+  color: rgb(86, 85, 84);
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#introduction {
+  padding-top: 10px;
+}
+
+.btn-blue {
+  background-color: rgb(47, 20, 127);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li i {
+  font-size: 50px;
+  margin: 20px 30px 0 30px;
+}
